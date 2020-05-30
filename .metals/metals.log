@@ -73,3 +73,43 @@ java.util.concurrent.TimeoutException
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.lang.Thread.run(Thread.java:834)
 
+2020.05.29 08:28:48 INFO  started: Metals version 0.9.0 in workspace 'C:\work\play-samples-play-scala-hello-world-tutorial'
+2020.05.29 08:28:49 INFO  time: initialize in 1.71s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28476'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\work\play-samples-play-scala-hello-world-tutorial\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\work\play-samples-play-scala-hello-world-tutorial\.bloop\root-test.json'
+[0m[32m[D][0m Loading project from 'c:\work\play-samples-play-scala-hello-world-tutorial\.bloop\root.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28476...
+The server is listening for incoming connections at tcp://127.0.0.1:28476...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.29 08:28:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\morik\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.05.29 08:28:53 INFO  time: connected to build server in 3.35s
+2020.05.29 08:28:53 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.05.29 08:28:53 INFO  time: imported build in 0.18s
+2020.05.29 08:29:21 INFO  time: indexed workspace in 27s
+2020.05.29 08:33:20 INFO  no build target: using presentation compiler with only scala-library
+2020.05.29 08:33:23 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 08:36:29 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:05:21 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:10:29 WARN  code navigation does not work for the file 'C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala' because it doesn't belong to a build target.
+2020.05.29 09:10:29 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:25:55 WARN  code navigation does not work for the file 'C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala' because it doesn't belong to a build target.
+2020.05.29 09:25:55 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:25:58 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:27:38 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:29:10 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:32:21 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:34:41 WARN  code navigation does not work for the file 'C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala' because it doesn't belong to a build target.
+2020.05.29 09:34:41 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+2020.05.29 09:35:30 WARN  code navigation does not work for the file 'C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala' because it doesn't belong to a build target.
+2020.05.29 09:35:30 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\app\controllers\HomeController.scala
+5åé 30, 2020 12:15:04 åﬂå„ org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+èÓïÒ: Unsupported notification method: $/setTraceNotification
+2020.05.30 16:24:22 WARN  no build target for: C:\work\play-samples-play-scala-hello-world-tutorial\play-samples-play-scala-hello-world-tutorial\controllers\HomeController.scala
