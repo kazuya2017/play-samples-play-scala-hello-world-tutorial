@@ -1,0 +1,6 @@
+run
+ls
+pwd
+run
+sbt run
+run
